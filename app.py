@@ -16,7 +16,7 @@ st.set_page_config(
 # ----------------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv("industrial_waste.csv.zip")
+    return pd.read_csv("industrial_waste_images_csv.zip")
 
 df = load_data()
 
